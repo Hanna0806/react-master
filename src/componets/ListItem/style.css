@@ -1,0 +1,21 @@
+.todo-list__item {
+    width: 100%;
+    border: 1px solid blue;
+    padding: 20px;
+    background-color: blueviolet;
+    border-radius: 10px;
+    color: white;
+}
+
+.todo-list__item-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    border-bottom: 1px solid black;
+    padding-bottom: 15px;
+}
+
+.todo-list__item-title {
+    width: 100%;
+}

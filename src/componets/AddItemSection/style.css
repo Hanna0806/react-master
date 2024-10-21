@@ -1,0 +1,9 @@
+.todo-control-block {
+    display: flex;
+    gap: 10px;
+    padding: 40px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background: blueviolet;
+    width: 100%;
+}

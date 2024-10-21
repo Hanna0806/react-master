@@ -1,0 +1,47 @@
+.btn {
+    padding: 6px 12px;
+    cursor: pointer;
+    background-color: rgb(181, 181, 231);
+    /* background-color: rgb(212, 88, 30); */
+    box-shadow: 0px 0px 2px 3px cornflowerblue;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 24px;
+    color: white;
+}
+
+.btn:hover {
+    background-color: rgb(150, 150, 231);
+    transform: scale(0.95);
+    color: black;
+}
+
+.btn:active {
+    transform: scale(0.9);
+    border: 2px solid rgb(181, 181, 231);
+    color: white;
+}
+
+.btn.danger {
+    background-color: rgb(212, 59, 13);
+}
+
+.primary {
+    background-color: rgb(55, 8, 131);
+}
+
+.btn-m {
+    padding: 12px 16px;
+}
+
+.btn-l {
+    padding: 16px 24px;
+}
+
+.color-red {
+    color: red;
+}
+
+.temp {
+    background-color: chartreuse;
+}
